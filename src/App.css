@@ -1,5 +1,12 @@
+body{
+  background-color: rgba(20,20,20,255);
+  
+}
+
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -22,6 +29,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -36,3 +44,37 @@
     transform: rotate(360deg);
   }
 }
+
+img:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+ animation-duration: 1s;
+ }
+ 
+ a,ul{
+     text-decoration: none;
+     list-style: none;
+ }
+ .realcolor{
+     background-color: rgba(20,20,20,255);
+ }
+ .placehold{
+     opacity: 50%;
+ }
+ .pulsanteall{
+     background-color: #ffffff;
+     background-color:#333333 ;
+ }
+ 
+ .film1{
+     position: relative;
+     bottom: 140px;
+ }
+ 
+ .film1:hover{
+     visibility: visible;
+ }
+ iframe:hover{
+     visibility: visible;
+ }
+ 
