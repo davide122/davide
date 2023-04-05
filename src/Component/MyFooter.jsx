@@ -3,9 +3,9 @@ import React from 'react';
 class MyFooter extends React.Component{
 render(){
     return(
-        <>
+     
         
-        <footer>
+        <footer className=''>
         <div className="row align-items-center mx-5 justify-content-center my-5 text-dark-emphasis  ">
           <div className="col col-6 col-md-3 col-xl-3 col-xxl-3">
             <div className=" container ms-3 d-flex">
@@ -63,7 +63,7 @@ render(){
         </div>
       </footer>
         
-        </>
+      
     )
 }
 
