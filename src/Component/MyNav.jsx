@@ -112,7 +112,9 @@ const MyNav =()=> {
                   </a>
                 </li>
                 <li className="nav-items me-2">
+                   
                   <img src={avatar} alt="" width="40px" />
+                
                 </li>
                 <li className="nav-tems me-2">
                   <a href="www.google.it" className="text-light nav-link">

@@ -23,7 +23,7 @@ function App() {
 
  <Routes>
 <Route path='/' element={<><Hero/><Gallery1/><Gallery2/></>} />
- <Route path="/MovieDetails:" element={<MovieDetails/>} />
+ <Route path="/MovieDetails/:id" element={<MovieDetails/>} />
  
    </Routes>
   
